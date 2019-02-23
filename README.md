@@ -15,11 +15,14 @@ print(max(matris))
 
 **2. n sayda elementdən ibarət olan matrisin ən böyük və ən kiçik elementlərinin cəmini tapın.**
 ```python
-matrix = [2, 45, 2, 12, 34]
+#matrix = [2, 45, 2, 12, 34]
 
-# Sizin kodunuz .....
+matris = [9,15,68,32,45,78,4,56,99]
+print(max(matris))
+print(min(matris))
+print(min(matris) + max(matris))
 
-sum_of_min_max = 47 # max = 45 min = 2 ona görə min + max = 47
+#sum_of_min_max = 47 # max = 45 min = 2 ona görə min + max = 47
 ```
 
 **3. String dəyişənlərdən ibarət matrisdə uzunluğu 2-dən çox olan elementləri tapın**
