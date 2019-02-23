@@ -38,10 +38,12 @@ output = ['kitab', 'film', 'yol', 'stul']
 **4. Elementləri tuple olan list(matris) verilib. Listi tuple-ların sonuncu elementlərinin artması sırası ilə düzün.**
 
 ```python
-matris = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
+#matris = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
 
-# Sizin kodunuz .....
-# nəticə
+a = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
+a = sorted(a, key=lambda tuple :tuple[1])
+print(a)
+
 matris = [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 
 ```
