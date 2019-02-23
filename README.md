@@ -7,7 +7,8 @@ https://classroom.github.com/a/ZpdKtloc
 ```python
 matrix = [2, 45, 2, 12, 34]
 
-# Sizin kodunuz .....
+# matris = [9,15,68,32,45,78,4]
+print(max(matris))
 
 max = 45
 ```
