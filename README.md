@@ -5,12 +5,12 @@ https://classroom.github.com/a/ZpdKtloc
 **1. n sayda elementdən ibarət olan bir ölçülü matrisin ən böyük elementini tapan proqram yazın.**
 
 ```python
-matrix = [2, 45, 2, 12, 34]
+#matrix = [2, 45, 2, 12, 34]
 
-# matris = [9,15,68,32,45,78,4]
+ matris = [9,15,68,32,45,78,4]
 print(max(matris))
 
-max = 45
+#max = 45
 ```
 
 **2. n sayda elementdən ibarət olan matrisin ən böyük və ən kiçik elementlərinin cəmini tapın.**
