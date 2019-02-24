@@ -28,11 +28,12 @@ print(min(matris) + max(matris))
 **3. String dəyişənlərdən ibarət matrisdə uzunluğu 2-dən çox olan elementləri tapın**
 
 ```python
-matris = ['al', 'kitab', 'film', 'yol', 'stul']
+#matris = ['al', 'kitab', 'film', 'yol', 'stul']
 
-# Sizin kodunuz .....
+matris = "'al', 'kitab', 'film', 'yol', 'stul'"
+print([e for e in eval('('+matris+')') if len(e)>2])
 
-output = ['kitab', 'film', 'yol', 'stul']
+#output = ['kitab', 'film', 'yol', 'stul']
 ```
 
 **4. Elementləri tuple olan list(matris) verilib. Listi tuple-ların sonuncu elementlərinin artması sırası ilə düzün.**
